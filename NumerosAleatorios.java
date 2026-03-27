@@ -12,7 +12,7 @@ public class NumerosAleatorios {
     Random NumeroAleatorio = new Random();
     int i=0,Acumulado=0;
     float promedio=0;
-    for(i=0;i<=500;i++){
+    for(i=0;i<500;i++){
         int a = 10 + NumeroAleatorio.nextInt(1001);
         System.out.println("El numero aleatorio es: " + a);
         Acumulado=a+Acumulado;
